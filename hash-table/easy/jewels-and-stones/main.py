@@ -30,8 +30,19 @@ def approach2(J, S):
     count = 0
     if len(S) == 0:
         return count
-    
+
     return len([char for char in S if char in J])
+
+
+# fastest solution
+# converting J to a set gives us O(1) lookup
+def approach3(J, S):
+    if len(S) == 0:
+        return 0
+
+    jewels = set([j for j in J])
+
+    return len([s for s in S if s in jewels])
 
 
 if __name__ == '__main__':
@@ -40,3 +51,6 @@ if __name__ == '__main__':
 
     assert approach2("aA", "aAAbbbb") == 3
     assert approach2("z", "ZZ") == 0
+
+    assert approach3("aA", "aAAbbbb") == 3
+    assert approach3("z", "ZZ") == 0
