@@ -18,8 +18,14 @@
 # 0 <= A[i] <= 5000
 
 
+# O(n)
 def approach1(A):
     result = []
+    for el in A:
+        if el % 2 == 0:
+            result.insert(0, el)
+        else:
+            result.append(el)
 
     return result
 
