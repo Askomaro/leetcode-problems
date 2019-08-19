@@ -37,7 +37,19 @@ Each node's value will be an integer in the range [0, 99].
  */
 
 class Solution {
-    func isUnivalTree(_ root: TreeNode?) -> Bool {
+    var st : Set<Int> = []
 
+    func isUnivalTree(_ root: TreeNode?) -> Bool {
+        let vr = root!.val
+        helper(root)
+        return st.count == 1
+    }
+
+    func helper(_ root: TreeNode?) {
+        if root != nil {
+            self.helper(root!.left)
+            self.helper(root!.right)
+            self.st.insert(root!.val)
+        }
     }
 }
