@@ -30,5 +30,21 @@ class ListNode:
 
 
 class Solution:
+    size = 0
+
     def middleNode(self, head: ListNode) -> ListNode:
-        return head
+        i = 0
+        node = head
+
+        self.getSize(head)
+
+        while i != self.size // 2:
+            node = node.next
+            i += 1
+
+        return node
+
+    def getSize(self, node: ListNode) -> None:
+        self.size += 1
+        if node.next:
+            self.getSize(node.next)
