@@ -48,3 +48,14 @@ class Solution:
         self.size += 1
         if node.next:
             self.getSize(node.next)
+
+
+# Optimal solution using 2 pointers
+class Solution2:
+
+    def middleNode(self, head: ListNode) -> ListNode:
+        slow = fast = head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        return slow
