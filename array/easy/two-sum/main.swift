@@ -12,6 +12,7 @@ return [0, 1].
 */
 
 class Solution {
+    // O(n^2); O(1)
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var s = 0
         var e = 0
@@ -25,6 +26,24 @@ class Solution {
                 }
             }
 
+        }
+
+        return [s, e]
+    }
+
+    // O(n); O(m)
+    func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
+        var s = 0
+        var e = 0
+        var map : [Int: Int] = [:]
+
+        for i in 0..<nums.count{
+            var temp = target - nums[i]
+            if let val = map[temp] {
+                s = val
+                e = i
+            }
+            map[nums[i]] = i
         }
 
         return [s, e]
