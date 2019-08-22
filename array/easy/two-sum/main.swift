@@ -13,6 +13,20 @@ return [0, 1].
 
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        var s = 0
+        var e = 0
 
+        for i in 0..<nums.count{
+            for j in i+1..<nums.count{
+                if nums[i] + nums[j] == target{
+                    s = i
+                    e = j
+                    break
+                }
+            }
+
+        }
+
+        return [s, e]
     }
 }
