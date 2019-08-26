@@ -21,6 +21,30 @@ This is consistent to C's strstr() and Java's indexOf().
 
 class Solution {
     func strStr(_ haystack: String, _ needle: String) -> Int {
-        
+        if needle.isEmpty{
+            return 0
+        }
+
+        let haystackChars = Array(haystack)
+        let needleChars = Array(needle)
+        var i = 0
+        var j = 0
+
+        while i < haystackChars.count{
+            if haystackChars[i] == needleChars[j]{
+                j += 1
+
+                if j == needleChars.count{
+                    return i - j + 1
+                }
+            } else{
+                i -= j
+                j = 0
+            }
+
+            i += 1
+        }
+
+        return -1
     }
 }
