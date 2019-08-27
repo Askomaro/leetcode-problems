@@ -20,6 +20,30 @@ Explanation:
 
 class Solution {
     func findTheDifference(_ s: String, _ t: String) -> Character {
+        var dict : [Character: Int] = [:]
+        var r : Character?
 
+        for ch in s{
+            if dict[ch] != nil{
+                dict[ch]! += 1
+            }else{
+                dict[ch] = 0
+            }
+        }
+
+        for ch in t{
+            if dict[ch] != nil{
+                if dict[ch]! == 0 {
+                    dict.removeValue(forKey: ch)
+                }else{
+                    dict[ch]! -= 1
+                }
+            }else{
+                r = ch
+                break
+            }
+        }
+
+        return r!
     }
 }
