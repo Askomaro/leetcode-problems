@@ -18,6 +18,10 @@ Explanation:
 'e' is the letter that was added.
  */
 
+/**
+Time complexity O(n) + O(m) where "n" is "s" and "m" is "t"
+Memory - O(n) where "n" is size of "s"
+*/
 class Solution {
     func findTheDifference(_ s: String, _ t: String) -> Character {
         var dict : [Character: Int] = [:]
