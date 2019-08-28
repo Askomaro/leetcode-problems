@@ -17,6 +17,23 @@ Output: 4
 
 class Solution {
     func singleNumber(_ nums: [Int]) -> Int {
+        var map : [Int: Bool] = [:]
+        var r = 0
 
+        for el in nums{
+            if map[el] != nil{
+                map[el] = true
+            }else{
+                map[el] = false
+            }
+        }
+
+        for (ind, el) in map{
+            if el == false{
+                r = ind
+            }
+        }
+
+        return r
     }
 }
