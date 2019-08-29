@@ -18,9 +18,12 @@
 * [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) - [sltn](tree/easy/search-in-bst/main.swift)  
 * [Hamming Distance](https://leetcode.com/problems/hamming-distance/) - [sltn](bit-manipulation/easy/hamming-distance/main.swift)
 * [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) - [sltn](tree/easy/merge-two-binary-trees/main.swift)  
-* [Height Checker](https://leetcode.com/problems/height-checker/) - [sltn](array/easy/height-checker/main.swift)  
-* [Height Checker](https://leetcode.com/problems/height-checker/) - [sltn](array/easy/height-checker/main.swift)  
-* [Height Checker](https://leetcode.com/problems/height-checker/) - [sltn](array/easy/height-checker/main.swift)  
+* [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) - [sltn](math/easy/self-dividing-numbers/main.py)  
+* [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) - [sltn](array/easy/squares-of-a-sorted-array/main.py)  
+* [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) - [sltn](string/easy/robots-return-to-origin/main.py)  
+* [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) - [sltn](array/easy/n-repeated-element/main.py)  
+* [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) - [sltn](string/easy/robots-return-to-origin/main.py)  
+* [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) - [sltn](string/easy/robots-return-to-origin/main.py)  
   
 
 
