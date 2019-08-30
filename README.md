@@ -1,6 +1,7 @@
 # leetcode-problems
 
 ## Easy:
+* [Binary Search](https://leetcode.com/problems/binary-search/) - 
 * [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) - [python](array/easy/third-max-number/main.py)
 * [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) - [python](array/easy/non-decreasing-array/main.py)
 * [Reverse Integer](https://leetcode.com/problems/reverse-integer/) - [swift](math/easy/reverse-integer/main.swift)
