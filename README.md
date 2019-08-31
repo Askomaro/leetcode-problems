@@ -1,6 +1,7 @@
 # leetcode-problems
 
 ## Easy:
+* [Detect Capital](https://leetcode.com/problems/detect-capital/) - 
 * [Binary Search](https://leetcode.com/problems/binary-search/) - [python](array/easy/binary-search/main.py)
 * [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) - [python](array/easy/third-max-number/main.py)
 * [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) - [python](array/easy/non-decreasing-array/main.py)
