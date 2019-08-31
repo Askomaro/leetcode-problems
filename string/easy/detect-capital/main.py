@@ -28,6 +28,17 @@ def detectCapitalUse(word):
     :type word: str
     :rtype: bool
     """
+    first_capital = True if ord(word[0]) < 97 else False
+    all_capital, only_first_capital, all_not_capital = first_capital, first_capital, not first_capital
+
+    for el in word[1:]:
+        if ord(el) < 96:
+            only_first_capital = False
+            all_not_capital = False
+        elif ord(el) > 96:
+            all_capital = False
+
+    return all_capital or all_not_capital or only_first_capital
 
 
 if __name__ == '__main__':
