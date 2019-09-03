@@ -1,6 +1,7 @@
 # leetcode-problems
 
 ## Easy:
+* [Lemonade Change](https://leetcode.com/problems/lemonade-change/) - [python](array/easy/lemonade-change/main.py)
 * [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) - [python](tree/easy/sum-of-left-leaves/main.py)
 * [Detect Capital](https://leetcode.com/problems/detect-capital/) - [python](string/easy/detect-capital/main.py)
 * [Binary Search](https://leetcode.com/problems/binary-search/) - [python](array/easy/binary-search/main.py)
