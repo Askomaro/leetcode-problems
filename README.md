@@ -1,6 +1,7 @@
 # leetcode-problems
 
 ## Easy:
+* [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) - [python](linked-list/easy/remove-linked-list-elements/main.py)
 * [Lemonade Change](https://leetcode.com/problems/lemonade-change/) - [python](array/easy/lemonade-change/main.py)
 * [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) - [python](tree/easy/sum-of-left-leaves/main.py)
 * [Detect Capital](https://leetcode.com/problems/detect-capital/) - [python](string/easy/detect-capital/main.py)
