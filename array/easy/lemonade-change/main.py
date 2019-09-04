@@ -45,3 +45,25 @@ class Solution(object):
         :type bills: List[int]
         :rtype: bool
         """
+
+        collected = {
+            5: 0,
+            10: 0
+        }
+        for bill in bills:
+            if bill == 5:
+                collected[5] += 1
+            elif bill == 10:
+                collected[5] -= 1
+                collected[10] += 1
+            else:
+                if collected[10] > 0:
+                    collected[10] -= 1
+                    collected[5] -= 1
+                else:
+                    collected[5] -= 3
+
+            if collected[5] < 0:
+                return False
+
+        return True
