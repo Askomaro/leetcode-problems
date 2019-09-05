@@ -20,11 +20,18 @@ class Solution(object):
         :type val: int
         :rtype: ListNode
         """
-        result = ListNode(head.val)
-        while head.next:
-            if result.val == val:
-                continue
+        # Use dummy head.  This works because objects are pointers to heap memory locations.
+        # p moves but dum stays pointed at original memory location.
+        node = head
+        p = dum = ListNode(None)
 
-            result.next = head.next
+        while node:
+            if node.val == val:
+                node = node.next
+                p.next = None
+            else:
+                p.next = node
+                node = node.next
+                p = p.next
 
-        return result
+        return dum.next
