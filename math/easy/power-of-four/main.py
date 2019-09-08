@@ -11,5 +11,5 @@
 # Follow up: Could you solve it without loops/recursion?
 
 class Solution(object):
-    def isPowerOfFour(self, n):
-        return True
+    def isPowerOfFour(self, num):
+        return (num > 4) and (1073741824 % num == 0)
