@@ -1,7 +1,8 @@
 # leetcode-problems
 
 ## Easy:
-* [Power of four]() - [python](math/easy/power-of-four/main.py)
+* [Power of 2](https://leetcode.com/problems/power-of-two/) - [python](math/easy/power-of-two/main.py)
+* [Power of four](https://leetcode.com/problems/power-of-four/) - [python](math/easy/power-of-four/main.py)
 * [Power of three](https://leetcode.com/problems/power-of-three/) - [python](math/easy/power-of-three/main.py)
 * [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) - [python](linked-list/easy/remove-linked-list-elements/main.py)
 * [Lemonade Change](https://leetcode.com/problems/lemonade-change/) - [python](array/easy/lemonade-change/main.py)
