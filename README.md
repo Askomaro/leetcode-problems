@@ -1,7 +1,7 @@
 # leetcode-problems
 
 ## Easy:
-* [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - [python](array/easy/merge-sorted-array/main.py)
+* [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - 
 * [Power of 2](https://leetcode.com/problems/power-of-two/) - [python](math/easy/power-of-two/main.py)
 * [Power of four](https://leetcode.com/problems/power-of-four/) - [python](math/easy/power-of-four/main.py)
 * [Power of three](https://leetcode.com/problems/power-of-three/) - [python](math/easy/power-of-three/main.py)
