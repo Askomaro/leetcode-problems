@@ -22,3 +22,12 @@ class Solution(object):
         :type n: int
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
+        for idx, i in enumerate(nums1):
+            if nums2 and i > nums2[0] or m == 0:
+                # every time gets first element from nums2 put it to nums1 then delete it
+                nums1.insert(idx, nums2.pop(0))
+                # then delete last item from nums1
+                nums1.pop()
+            else:
+                # count how many items from nums1 has been using
+                m -= 1
