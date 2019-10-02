@@ -1,7 +1,8 @@
 # leetcode-problems
 
 ## Easy:
-* [Ugly Number](https://leetcode.com/problems/ugly-number/) - 
+* [Most common word](https://leetcode.com/problems/most-common-word/) - 
+* [Ugly Number](https://leetcode.com/problems/ugly-number/) - [python](math/easy/ugly-numbers/main.py)
 * [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - [python](array/easy/merge-sorted-array/main.py)
 * [Power of 2](https://leetcode.com/problems/power-of-two/) - [python](math/easy/power-of-two/main.py)
 * [Power of four](https://leetcode.com/problems/power-of-four/) - [python](math/easy/power-of-four/main.py)
