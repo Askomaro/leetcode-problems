@@ -34,8 +34,10 @@
 
 class Solution(object):
     def mostCommonWord(self, paragraph, banned):
+        import re
         """
         :type paragraph: str
         :type banned: List[str]
         :rtype: str
         """
+        re.split('; |, |\*|\n', paragraph)

@@ -1,6 +1,7 @@
 # leetcode-problems
 
 ## Easy:
+* [Plus one](https://leetcode.com/problems/plus-one/) - 
 * [Most common word](https://leetcode.com/problems/most-common-word/) - 
 * [Ugly Number](https://leetcode.com/problems/ugly-number/) - [python](math/easy/ugly-numbers/main.py)
 * [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - [python](array/easy/merge-sorted-array/main.py)
